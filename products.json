@@ -1,0 +1,38 @@
+[
+  {
+    "productId": 1,
+    "type": "Motor",
+    "price": 10000,
+    "examine": "Examine"
+  },
+  {
+    "productId": 2,
+    "type": "Motor",
+    "price": 20000,
+    "examine": "Examine"
+  },
+  {
+    "productId": 3,
+    "type": "Car",
+    "price": 30000,
+    "examine": "Examine"
+  },
+  {
+    "productId": 4,
+    "type": "Car",
+    "price": 40000,
+    "examine": "Examine"
+  },
+  {
+    "productId": 5,
+    "type": "Bike",
+    "price": 50000,
+    "examine": "Examine"
+  },
+  {
+    "productId": 6,
+    "type": "Bike",
+    "price": 60000,
+    "examine": "Examine"
+  }
+]

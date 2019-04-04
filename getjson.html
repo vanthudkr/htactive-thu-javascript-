@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSON Tester</title>
+</head>
+<body>
+<h1>JSON Tester</h1>
+<p id="pas" ></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script >
+    $.getJSON( "test.json", function( json ) {
+    console.log( "JSON Data received, name is " + json.name);
+    document.getElementById('pas').innerHTML = json.name;
+});
+</script>
+</body>
+</html>
